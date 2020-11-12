@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- <link href="http://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet"> -->
+    <link type="text/css" rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/0.98.0/css/materialize.min.css"/>
+    <title>Efetuar Login - Zoom</title>
+    <!--Boostrap-->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" href="../css/style.css">
+    <!--Scripts-->
+	<script src="https://code.jquery.com/jquery-3.5.1.min.js" integrity="sha256-9/aliU8dGd2tb6OSsuzixeV4y/faTqgFtohetphbbj0=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+    <!-- Fontawesome -->
+    <script src="https://kit.fontawesome.com/1a1d331282.js" crossorigin="anonymous"></script>
+    <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
+</head>
+<body>
+    <div class="wrapper">
+        <div class="logo">
+            <a href="#"><img src="../img/ZoomLogo.png" alt="Logo"></a>
+        </div>
+        <form class="login">
+            <div class="form-group">
+                <label for="email">Endereço de e-mail</label>
+                <input type="email" class="form-control" id="email" placeholder="Digite seu email" aria-describedby="emailHelp">
+            </div>
+            <div class="form-group">
+                <label for="senha">Senha</label>
+                <input type="password" class="form-control" id="senha" placeholder="Senha...">
+                <a class="position-button" href="#">Esqueceu?</a>
+                <small id="emailHelp" class="form-text text-muted">O Zoom é protegido pelo reCAPTCHA e aplicam-se a <span class="link-blue"> Política de Privacidade </span> e os <span class="link-blue"> Termos de Serviço </span>.</small>
+            </div>
+            <button id="btn" type="button" class="btn btn-primary btn-lg btn-block">
+                <i class="fas fa-sign-in-alt"></i>
+                Efetuar Login </button>
+            <div class="form-check">
+                <input type="checkbox" class="form-check-input" id="verificar">
+                <label for="verificar" class="form-check-label">Continuar conectado</label>
+                <P>Novo no Zoom? <span class="link-blue"> Inscreva-se gratuitamente</span> </P>
+            </div>
+        </form>
+    </div>
+    <script src="../js/main.js"></script>
+    <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
+</body>
+</html>
