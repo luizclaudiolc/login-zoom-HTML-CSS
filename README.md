@@ -14,4 +14,5 @@ Ficou simples e ainda vou melhora-lá mas já gostaria de compartilhar meu progr
 - Fontawesome
 
 #### Segue uma imagem do do projeto
-[![Tela](https://ibb.co/VgfGDkx "Tela")](https://ibb.co/VgfGDkx "Tela")
+
+<img src="https://github.com/luizclaudiolc/login-zoom-HTML-CSS/blob/master/img/tela.jpg" width="90%">
