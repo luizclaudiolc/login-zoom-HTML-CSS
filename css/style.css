@@ -6,21 +6,28 @@
     font-size: 14px;
 }
 
-body {
+.wrapper {
     width: 100%;
     height: 100%;
-    background-color: rgb(243, 243, 243);
+    background-color: #fff;
     margin: 0;
     padding: 0;
     justify-content: center;
     display: flex;
 }
 
-.wrapper {
-    background-color: #ffffff;
-    margin-top: 40px;
-    border: 1px solid lightgrey;
-    border-radius: 5px;
+.nav-bar {
+    display: flex;
+    box-sizing: border-box;
+}
+
+.efetuar {
+    text-align: center;
+    padding-top: 20px;
+}
+
+.login {
+    margin-top: 20px;
     padding: 1em 2em 3em;
 }
 
@@ -44,11 +51,6 @@ body {
 
 .form-check {
     margin-top: 2em;
-}
-
-p {
-    margin-top: 1em;
-    font-size: 12px;
 }
 
 /* @Media Requeries */

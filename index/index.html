@@ -18,30 +18,65 @@
     <link rel="shortcut icon" href="../img/favicon.ico" type="image/x-icon">
 </head>
 <body>
+    <div class="nav-bar">
+        <nav class="navbar navbar-expand-lg navbar-primary" style="background-color: white; padding: 3em;">
+            <a class="navbar-brand" href="#">
+                <img src="https://d24cgw3uvb9a9h.cloudfront.net/static/94110/image/new/ZoomLogo.png" alt="Logo-zoom">
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#solucoes" aria-controls="conteudoNavbarSuportado" aria-expanded="false" aria-label="Alterna navegação">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="solucoes">
+              <ul class="navbar-nav mr-auto">
+                <li class="nav-item dropdown">
+                  <a class="btn btn-outline-primary dropdown-toggle" class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Soluções
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Produtos</a>
+                    <a class="dropdown-item" href="#">Indústria</a>
+                    <!-- <div class="dropdown-divider"></div>
+                    <a class="dropdown-item" href="#">Algo mais aqui</a>
+                  </div> -->
+                </li>
+              </ul>
+              <ul>
+                <li class="nav-item active">
+                    <a class="btn btn-outline-primary" class="nav-link" href="#">Home <span class="sr-only">(página atual)</span></a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="btn btn-outline-primary" class="nav-link" href="#">Link</a>
+                  </li>
+              </ul>
+            </div>
+          </nav>
+    </div>
     <div class="wrapper">
-        <div class="logo">
-            <a href="#"><img src="../img/ZoomLogo.png" alt="Logo"></a>
+        <div>
+            <div class="efetuar">
+                <p style="font-size: 2em; padding-top: 20px;">Efetuar Login</p>
+            </div>
+            <form class="login">
+                <div class="form-group">
+                    <label for="email">Endereço de e-mail</label>
+                    <input type="email" class="form-control" id="email" placeholder="Digite seu email" aria-describedby="emailHelp">
+                </div>
+                <div class="form-group">
+                    <label for="senha">Senha</label>
+                    <input type="password" class="form-control" id="senha" placeholder="Senha...">
+                    <a class="position-button" href="#">Esqueceu?</a>
+                    <small id="emailHelp" class="form-text text-muted">O Zoom é protegido pelo reCAPTCHA e aplicam-se a <span class="link-blue"> Política de Privacidade </span> e os <span class="link-blue"> Termos de Serviço </span>.</small>
+                </div>
+                <button id="btn" type="button" class="btn btn-primary btn-lg btn-block">
+                    <i class="fas fa-sign-in-alt"></i>
+                    Efetuar Login </button>
+                <div class="form-check">
+                    <input type="checkbox" class="form-check-input" id="verificar">
+                    <label for="verificar" class="form-check-label">Continuar conectado</label>
+                    <P>Novo no Zoom? <span class="link-blue"> Inscreva-se gratuitamente</span> </P>
+                </div>
+            </form>
         </div>
-        <form class="login">
-            <div class="form-group">
-                <label for="email">Endereço de e-mail</label>
-                <input type="email" class="form-control" id="email" placeholder="Digite seu email" aria-describedby="emailHelp">
-            </div>
-            <div class="form-group">
-                <label for="senha">Senha</label>
-                <input type="password" class="form-control" id="senha" placeholder="Senha...">
-                <a class="position-button" href="#">Esqueceu?</a>
-                <small id="emailHelp" class="form-text text-muted">O Zoom é protegido pelo reCAPTCHA e aplicam-se a <span class="link-blue"> Política de Privacidade </span> e os <span class="link-blue"> Termos de Serviço </span>.</small>
-            </div>
-            <button id="btn" type="button" class="btn btn-primary btn-lg btn-block">
-                <i class="fas fa-sign-in-alt"></i>
-                Efetuar Login </button>
-            <div class="form-check">
-                <input type="checkbox" class="form-check-input" id="verificar">
-                <label for="verificar" class="form-check-label">Continuar conectado</label>
-                <P>Novo no Zoom? <span class="link-blue"> Inscreva-se gratuitamente</span> </P>
-            </div>
-        </form>
     </div>
     <script src="../js/main.js"></script>
     <!-- <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script> -->
